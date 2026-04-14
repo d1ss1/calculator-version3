@@ -1,2 +1,2 @@
 # calculator-version3
-calculator-version2 on HTML,CSS,JS
+calculator-version3 on HTML,CSS,JS

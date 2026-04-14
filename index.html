@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Calculator</title>
+    <title>Calculator</title>
     <style>
         body {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -45,7 +45,7 @@
             background: #f5f5f5;
             color: #333;
             font-weight: bold;
-            width: calc(100% - 40px); /* Чтобы инпут не вылезал за границы */
+            width: calc(100% - 40px); 
         }
 
         .btn {
@@ -84,7 +84,7 @@
             grid-column: span 2;
         }
 
-        /* Очистка */
+  
         #clear {
             background: linear-gradient(145deg, #f44336, #da190b);
             color: white;
@@ -98,28 +98,28 @@
             grid-column: span 2;
         }
     </style>
-</head>
-<body>
-
+    </head>
     <h1>Calculator</h1>
-    
-    <div id="controls">
-        <input id="taskInput" readonly placeholder="0">
-        
-        <button class="btn" id="seven">7</button>
-        <button class="btn" id="eight">8</button>
-        <button class="btn" id="nine">9</button>
-        <button class="btn" id="divide">/</button>
-
-        <button class="btn" id="four">4</button>
-        <button class="btn" id="five">5</button>
-        <button class="btn" id="six">6</button>
-        <button class="btn" id="multiply">*</button>
-
-        <button class="btn" id="one">1</button>
-        <button class="btn" id="two">2</button>
-        <button class="btn" id="three">3</button>
-        <button class="btn" id="minus">-</button>
-
-        <button class="btn" id="zero">0</button>
-        <button class="btn" id
+<div id="controls">
+  <input id="taskInput" readonly>
+  <button class="btn" id="one">1</button>
+  <button class="btn" id="two">2</button>
+  <button class="btn" id="three">3</button>
+  <button class="btn" id="four">4</button>
+  <button class="btn" id="five">5</button>
+  <button class="btn" id="six">6</button>
+  <button class="btn" id="seven">7</button>
+  <button class="btn" id="eight">8</button>
+  <button class="btn" id="nine">9</button>
+  <button class="btn" id="zero">0</button>
+  <button class="btn" id="plus">+</button>
+  <button class="btn" id="minus">-</button>
+  <button class="btn" id="multiply">*</button>
+  <button class="btn" id="divide">/</button>
+  <button class="btn" id="equals">=</button>
+  <button class="btn" id="clear">C</button>
+  <button class="btn" id="dot">.</button>
+</div>
+ <script src="script.js"></script>
+    <body>
+</html>
